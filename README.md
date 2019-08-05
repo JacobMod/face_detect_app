@@ -1,5 +1,11 @@
-# face_detect_app
-Face detection with OpenCV and pyqt5
+# Face-detect-app
+Face detection with opencv and pyqt5
+
+### Dependecies
+-PyQt5
+-Opencv2
+-numpy
+-uuid
 
 
 
