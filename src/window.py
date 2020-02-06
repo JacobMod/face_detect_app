@@ -1,9 +1,9 @@
 import sys
-
 from capture import *
 
 
 class Window(QtWidgets.QWidget):
+
 
     def __init__(self, parent = None):
         super().__init__(parent)
@@ -22,8 +22,6 @@ class Window(QtWidgets.QWidget):
 
         
     def add_buttons(self):
-
-        
         self.start_cap_button = QtWidgets.QPushButton("Start capture")
         self.face_detect_on_button = QtWidgets.QPushButton("Face detection on")
         self.face_detect_off_button = QtWidgets.QPushButton("Face detection off")
@@ -36,10 +34,7 @@ class Window(QtWidgets.QWidget):
         self.face_detect_off_button.clicked.connect(self.video_widget.set_off_detect)
 
     def set_layout(self):
-
-        
         buttons_layout = QtWidgets.QHBoxLayout()
-        
         buttons_layout.addWidget(self.start_cap_button)
         buttons_layout.addWidget(self.save_cap_button)
         buttons_layout.addWidget(self.face_detect_on_button)

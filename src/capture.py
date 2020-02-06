@@ -3,6 +3,7 @@ import numpy as np
 from PyQt5 import QtCore, QtWidgets, QtGui
 import uuid
 
+
 class Capture(QtCore.QThread):
     image_data = QtCore.pyqtSignal(np.ndarray)
 

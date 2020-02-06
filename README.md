@@ -7,5 +7,6 @@ Face detection with opencv and pyqt5
 -numpy
 -uuid
 
-
+### Run
+python3 main.py
 
