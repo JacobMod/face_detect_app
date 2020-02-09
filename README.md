@@ -2,11 +2,12 @@
 Face detection with opencv and pyqt5
 
 ### Dependecies
--PyQt5
--Opencv2
--numpy
--uuid
+*PyQt5
+*Opencv2
+*numpy
+*uuid
 
 ### Run
+```
 python3 main.py
-
+```
